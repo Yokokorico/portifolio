@@ -6,6 +6,7 @@ import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
+import { Image } from 'astro:assets';
 
 const posts = (await getCollection("blog"))
   .filter(post => !post.data.draft)
@@ -106,6 +107,7 @@ const stack = [
 
       <!-- About Section -->
       <section class="animate">
+        <Image src="/moi.jpg" width=250 height=300 class="mx-auto mb-2 rounded-lg" alt="moi" />
         <article>
           <p>Je suis un <b><i>Développeur Java/Angular</i></b>, <b><i>élève</i></b>, <b><i>minimaliste</i></b>, <b><i>optimiste</i></b> et <b><i>grand joueur de World of Warcraft</i></b>.</p>
           <p>J'aime construire et bidouiller des sites web depuis mon enfance</p>
@@ -148,7 +150,7 @@ const stack = [
             </p>
             <a href="/projects" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
               <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                Tout mes projets
+                Tous mes projets
               </span>
             </a>
           </div>
@@ -166,10 +168,10 @@ const stack = [
       <section class="animate">
         <div>
           <p class="font-semibold text-black dark:text-white">
-            Let's Connect
+            Contacter moi ! 
           </p>
           <p>
-            Reach out to me via email or on social media.
+            Ecrivez-moi par email ou via les réseaux sociaux
           </p>
           <div class="grid grid-cols-4 gap-y-2 mt-4 auto-cols-min">
             {SOCIALS.map(social => (
@@ -193,7 +195,7 @@ const stack = [
       <section class="animate">
         <div class="space-y-4">
           <p class="font-semibold text-black dark:text-white">
-            Website build with
+            Ce site à été fait avec
           </p>
           <div class="flex flex-wrap items-center gap-2 mt-5">
             {stack.map(item => (

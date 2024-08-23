@@ -1,4 +1,5 @@
 import { defineCollection, z } from "astro:content"
+import { coerce } from "node_modules/astro/dist/preferences"
 
 const work = defineCollection({
   type: "content",
