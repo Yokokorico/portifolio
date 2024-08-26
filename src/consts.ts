@@ -9,8 +9,14 @@ export const SITE: Site = {
 
 // Work Page
 export const WORK: Page = {
-  TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
+  TITLE: "Mon parcours",
+  DESCRIPTION: "Mon parcours au fil des années",
+}
+
+// Work Page
+export const SCHOOL: Page = {
+  TITLE: "Mon parcours scolaire",
+  DESCRIPTION: "Mon parcours scolaire au fil des années",
 }
 
 // Blog Page
@@ -21,28 +27,28 @@ export const BLOG: Page = {
 
 // Projects Page 
 export const PROJECTS: Page = {
-  TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
+  TITLE: "Projets",
+  DESCRIPTION: "Les projets récent sur lequel j'ai travaillé",
 }
 
 // Search Page
 export const SEARCH: Page = {
-  TITLE: "Search",
-  DESCRIPTION: "Search all posts and projects by keyword.",
+  TITLE: "Recherche",
+  DESCRIPTION: "Recherche de mes projets.",
 }
 
 // Links
 export const LINKS: Links = [
   { 
-    TEXT: "Home", 
+    TEXT: "Accueil", 
     HREF: "/", 
   },
   { 
-    TEXT: "Work", 
+    TEXT: "Mon parcours", 
     HREF: "/work", 
   },
   { 
-    TEXT: "Projects", 
+    TEXT: "Projets", 
     HREF: "/projects", 
   },
 ]

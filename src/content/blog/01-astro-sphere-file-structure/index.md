@@ -33,6 +33,7 @@ A one line summary of what each file and directory is for:
 │   │   |  blog/ // Contains all blog post markdown
 │   │   |  projects/ // Contains all projects markdown
 │   │   |  work/ // Contains all work page markdown
+│   │   |  school/ // Contains all school page markdown
 │   │   |  legal/ // Contains all legal docs markdown
 │   │   └── config.ts // Contains the collection config for Astro
 │   ├── layouts/ // Reused layouts across the website

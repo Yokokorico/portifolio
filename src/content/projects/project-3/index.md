@@ -1,13 +1,16 @@
 ---
 title: "Astronomical Solar System"
-summary: "Un système solaire modélisé en 3D avec three js"
-date: "Mar 16 2022"
+summary: "Un système solaire modélisé en 3D avec three.js et React"
+date: "Aug 08 2024"
 draft: false
 tags:
 - React
 - Typescript
 - Three.js
-
+demoUrl: https://astro-systeme-solaire-ass.vercel.app/
+repoUrl: https://github.com/2024-cda-boulogne/solar_system_react
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+![AstroSS](/astroSS.png "Magnifique Terre avec le Soleil")
+
+Le projet, réalisé en équipe de quatre personnes, consiste en la création d'un système solaire en 3D interactif, développé à l'aide de Three.js pour la modélisation 3D et React pour l'interface utilisateur. Ce système permet aux utilisateurs d'explorer le système solaire de manière immersive, avec des informations détaillées sur chaque planète et le soleil récupérées en temps réel via une API. L'interface inclut un HUD (Head-Up Display) pour la navigation, permettant de se déplacer facilement dans l'espace tout en ajustant la vitesse de déplacement. Le projet a été géré de manière collaborative via GitHub Projects, en utilisant des user stories pour structurer et suivre les tâches, et est conçu pour être extensible, facilitant l'ajout de nouvelles planètes ou objets céleste.
