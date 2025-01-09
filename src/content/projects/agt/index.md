@@ -9,9 +9,12 @@ tags:
 - Typescript
 - Tailwind
 - Docker
+- Portainer
+- Conception
 - Deploiment
 - CI/CD
 - AlphaTab
+- SCSS
 demoUrl: https://2024-cda-boulogne.github.io/skilltree-tdu/
 repoUrl: https://github.com/2024-cda-boulogne/skilltree-tdu
 ---

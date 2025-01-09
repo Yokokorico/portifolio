@@ -8,9 +8,10 @@ tags:
   - Typescript
   - SCSS
   - Supabase
+  - Conception
   - Travail d'équipe
   - Gestion de projet
-demoUrl: https://2024-cda-boulogne.github.io/skilltree-tdu/
+demoUrl: https://skilltree.tduflos.ovh/
 repoUrl: https://github.com/2024-cda-boulogne/skilltree-tdu
 ---
 

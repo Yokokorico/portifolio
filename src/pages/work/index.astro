@@ -33,7 +33,7 @@ const school = await Promise.all(
 function formatWorkDate(input: Date | string) {
   if (typeof input === "string") return input;
 
-  const month = input.toLocaleDateString("en-US", {
+  const month = input.toLocaleDateString("fr-FR", {
     month: "short",
   });
 
